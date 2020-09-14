@@ -234,6 +234,80 @@ footer{
         height: 6vh;
         width:100px;        
     }
+    .wwd {
+        display: flex;
+        flex-direction: column;
+        background-color: #F4F4F4;
+        
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        margin-right: 5vw;
+      
+    }
+    #ab{
+        font-weight: bolder;
+        font-size: 18px;
+        margin-bottom: 2vh;
+        margin-top: 3vh;
+    }
+    
+    
+    #one,#three,#two {
+        margin-top: 1vh;
+        padding: 6vh 2vw;
+        background-color: #E6E6E6;
+        color: black;
+        height: auto;
+        border: #cccccc solid 1px;
+    
+    }
+    #fover {
+        width: 60vw;
+        align-self: center;
+        height: auto;
+        padding-right: 1vw;
+        padding-left: 1vw;
+        padding-top: 5vh;
+        padding-bottom: 1vh;
+    
+        background-color: #35424A;
+        color: white;
+        margin-top: 3vh;
+        margin-right: 10vw;
+        margin-left: 4vw;
+        margin-bottom: 5vh;
+        
+    }
+    
+    #wedo{
+        padding-bottom: 2vh;
+    }
+    .button_1 {
+        height: 6vh;
+        background:  #a9508b;
+        border: 0;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-bottom: 3vh;
+        margin-top: 2vh;
+        margin-right: 5vw;
+        margin-left: 20vw;
+        color: #ffffff;
+        font-size: 20px;
+        
+    }
+      
+    #name ,#email{
+        padding-right: 7vw;
+        height: 4vh;
+        width: 44vw;
+    }
+    #feedback {
+        width: 52vw;
+    }
  
 }
 @media only screen and (max-device-width: 363px) and (min-device-width: 100px){
@@ -245,11 +319,11 @@ footer{
     }
     #clarus{
         margin-left: 0; 
-        font-size: 20px;       
+        font-size: 25px;       
     }
     #adress  {
         margin-right: 0;
-        font-size: 12px;
+        font-size: 9px;
     }
     .subscribe {
         display: flex;
@@ -275,6 +349,43 @@ footer{
         margin-right: 0;
         height: 3vh;
         width:100px; 
+    }
+    .wwd {
+        display: flex;
+        flex-direction: column;
+        background-color: #F4F4F4;
+        
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        margin-right: 5vw;
+      
+    }
+   
+    #fover {
+        width: 60vw;
+        align-self: center;
+        margin-bottom: 5vh;
+        
+    }
+
+    .button_1 {
+        padding-left: 8vw;
+        padding-right: 8vw;
+        margin-bottom: 3vh;
+        margin-top: 2vh;
+        margin-left: 12vw;
+        font-size: 16px;
+        
+    }
+      
+    #name ,#email{
+        width: 44vw;
+    }
+    #feedback {
+        width: 52vw;
     }
    
 }
